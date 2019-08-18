@@ -5,13 +5,48 @@ body {
 }
 
 header {
-  background-color: rgba(155, 49, 49, 0.466);
+  background-color: #272727fa;
   width: 100%;
   height: 56px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
+}
+
+.right-icons {
+  position: absolute;
+  right: 0;
+}
+
+.searchbar {
+  background-color: #121212;
+  color: #e2e2e2;
+  width: 433px;
+  height: 28px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  position: fixed;
+  top: 12px;
+  left: 350px;
+  border: 1px #303030 solid;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.searchbar::placeholder {
+  color: #737373;
+  padding-left: 1px;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+.searchglass {
+  position: fixed;
+  top: 12px;
+  left: 780px;
 }
 
 aside {
