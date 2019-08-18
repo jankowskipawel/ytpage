@@ -40,13 +40,14 @@ header {
 }
 
 .searchbar:focus {
+  border: 1px #1c62b9 solid;
   outline: none;
 }
 
 .searchglass {
   position: fixed;
   top: 12px;
-  left: 780px;
+  left: 796px;
 }
 
 aside {
