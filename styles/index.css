@@ -67,7 +67,8 @@ aside {
 }
 
 .video iframe {
-  width: 69%;
+  width: 69vw; 
+  height: 38.8vw;
 }
 
 .title {
@@ -94,5 +95,5 @@ aside {
   margin: 0;
   position: absolute;
   top: 47px;
-  left: 580px;
+  left: 65%;
 }
