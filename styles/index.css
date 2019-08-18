@@ -63,7 +63,11 @@ aside {
   position: absolute;
   top: 70px;
   left: 25px;
-  width: 70%;
+  width: 100%;
+}
+
+.video iframe {
+  width: 69%;
 }
 
 .title {
@@ -74,7 +78,7 @@ aside {
   color: #ffffff;
   font-family: Roboto, Arial, sans-serif;
   font-size: 18px;
-  width: 992;
+  width: 69%;
   margin: 0 0;
   border-bottom: 1px solid #3f3f3f;
 }
