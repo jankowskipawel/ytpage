@@ -14,6 +14,15 @@ header {
   z-index: 10;
 }
 
+aside {
+  background-color: greenyellow;
+  position: absolute;
+  top: 70px;
+  right: 1px;
+  width: 28%;
+  height: 1500px;
+}
+
 .right-icons {
   position: absolute;
   right: 0;
@@ -50,10 +59,6 @@ header {
   left: 796px;
 }
 
-aside {
-  background-color: greenyellow;
-}
-
 .video {
   position: absolute;
   top: 70px;
@@ -78,4 +83,12 @@ aside {
   font-size: 16px;
   color: #aaaaaa;
   width: 992px;
+}
+
+.likes {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 47px;
+  left: 580px;
 }
