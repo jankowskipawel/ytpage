@@ -14,24 +14,32 @@ header {
   z-index: 10;
 }
 
-section {
-  background-color: aqua;
-  position: absolute;
-  left: 0;
-}
-
 aside {
   background-color: greenyellow;
 }
 
-section iframe {
+.video {
   position: absolute;
   top: 70px;
   left: 25px;
+  width: 70%;
 }
 
 .title {
-  background-color: white;
+  /* background-color: aqua; */
   position: absolute;
-  top: 670px;
+  top: 630px;
+  left: 25px;
+  color: #ffffff;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  width: 992;
+  margin: 0 0;
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.view-count {
+  font-size: 16px;
+  color: #aaaaaa;
+  width: 992px;
 }
