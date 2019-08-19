@@ -78,7 +78,6 @@ aside {
   
   width: 69%;
   margin: 0 0;
-  border-bottom: 1px solid #3f3f3f;
 }
 
 .text {
@@ -101,6 +100,105 @@ aside {
   left: 60%;
 }
 
+.channel {
+  border-top: 1px solid #3f3f3f;
+  padding-top: 20px;
+  border-bottom: 1px solid #3f3f3f;
+  padding-bottom: 30px;
+}
+
+.channel-picture {
+  border-radius: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.channel-name {
+  font-size: 14px;
+}
+
+.channel-published {
+  color: #aaaaaa;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.subscribe-button {
+  float: right;
+  background-color: #CC0000;
+  border: none;
+  border-radius: 2px;
+  width: 141px;
+  height: 36px;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  top: -50px;
+  right: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.subscribe-button:focus {
+  outline: none;
+}
+
+.description {
+  margin-left: 60px;
+}
+
+.parental-warning {
+  color: #aaaaaa;
+  float: left;
+  margin-right: 20px;
+  margin-top: 0;
+}
+
+.comment-count {
+  font-size: 16px;
+  float: left;
+  margin-right: 40px;
+}
+
+.sort-by {
+  width: 87.5px;
+  position: relative;
+  top: 12px;
+}
+
+.profile-picture {
+  border-radius: 100px;
+  display: block;
+  width: 40px;
+  position: relative;
+  top: 20px;
+  left: -170px;
+}
+
+.comment-box {
+  position: relative;
+  left: 50px;
+  top: -15px;
+  background-color: #121212;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #3f3f3f;
+  padding-bottom: 5px; 
+  color: white;
+  width: 95%;
+}
+
+.comment-box:focus {
+  outline: none;
+}
+
+.comment-box::placeholder {
+  color: #737373;
+}
+
+/* RIGHT SIDE */
 .autoplay {
   font-size: 13px;
   color: #aaaaaa;
