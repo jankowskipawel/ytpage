@@ -198,6 +198,90 @@ aside {
   color: #737373;
 }
 
+.first-comment {
+  margin-top: 24px;
+  width: 70%;
+  position: relative;
+}
+
+.comment {
+  margin-top: 24px;
+  width: 70%;
+  position: relative;
+}
+
+.comment-picture {
+  border-radius: 100px;
+  float: left;
+}
+
+.commenter-name {
+  font-size: 13px;
+  margin-left: 10px;
+  position: relative;
+  top: -10px;
+  float: left;
+}
+
+.comment-time {
+  font-size: 13px;
+  color: #888888;
+  margin-left: 125px;
+  position: relative;
+  top: 3px;
+}
+
+.comment-text {
+  font-size: 14px;
+  margin-left: 120px;
+  position: relative;
+  left: -65px;
+}
+
+.like-image {
+  position: relative;
+  left: 50px;
+  top: -8px;
+  float: left;
+}
+
+.like-count {
+  position: relative;
+  left: 60px;
+  top: -7px;
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.dislike-image {
+  position: relative;
+  left: 110px;
+  top: -34px;
+  float: left;
+}
+
+.reply {
+  color: #909090;
+  font-size: 13px;
+  position: relative;
+  left: 150px;
+  top: -35px;
+}
+
+.replies {
+  font-size: 14px;
+  float: left;
+  position: relative;
+  top: -50px;
+  left: 49px;
+}
+
+.replies-arrow {
+  position: relative;
+  top: -38px;
+  left: 54px;
+}
+
 /* RIGHT SIDE */
 .autoplay {
   font-size: 13px;
