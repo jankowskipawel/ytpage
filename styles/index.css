@@ -210,6 +210,10 @@ aside {
   position: relative;
 }
 
+.comments {
+  display: block;
+}
+
 .comment-picture {
   border-radius: 100px;
   float: left;
